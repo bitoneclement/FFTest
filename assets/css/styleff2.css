@@ -1,0 +1,115 @@
+@font-face {
+    font-family: finalf;
+    src: url(finalf.woff) format('woff');
+}
+
+*{
+    font-family: finalf;
+}
+
+* { cursor : url(assets/images/cursor/ffcursor2.cur), default; }
+
+body, html {
+    font-size: 100%;
+    margin:0;
+
+}
+
+
+/* HEADER FIXE */
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  overflow: hidden;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+} 
+
+.headerclass1 {
+				padding:15px;
+}
+
+nav a { 
+	    margin: 0 10px; 
+	    font-size: 22px;
+	  }
+
+h1 { font-size: 50px; }
+
+#bgvideo {
+				top: 0;
+				left: 0;
+				z-index: -1;
+				position: fixed;
+				width: 100%;
+				margin:0;
+				padding:0;
+				opacity: 0.6;
+		}
+
+#logo { position: absolute;
+left:23%;
+top:22px;
+		
+			 }
+
+.container { position: relative;
+			 margin-top: 11.3em;
+			 opacity: 0.8;
+
+		   }
+
+
+#section1 {     background-color: black;
+		     	
+				padding: 300px;
+				
+		  }
+#section1 p {   color:white; }
+
+
+
+#section2 {     background-color: white;
+				position: relative;
+				padding: 700px;
+		  }
+#section2 p {   color:black; }
+
+.youtube {
+   	      position:absolute;
+   	      left:14%;
+   	      bottom: 85%;
+   	     }       
+	
+
+
+#section3 {     background-color: black;
+			
+			
+				padding: 300px;
+	      }
+#section3 p {   color:white; }
+
+
+
+#section4 {     background-color: white;
+				
+		
+				padding: 200px;
+		  }
+#section4 p {   color:black; }
+
+
+
+#section5 {     background-color: black;
+			
+		
+				padding: 100px;
+		  }
+#section5 p {   color:white; }
